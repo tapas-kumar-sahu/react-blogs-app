@@ -101,7 +101,11 @@ body{
     line-height: 25px;
     color: var(--grey);
 }
+.subscription_form input:focus{
+    /* border: 2px solid var(--blue); */
+    box-shadow: 4px 6px 13px #8d7be5c8 !important;
 
+}
 /* 2. Navbar */
 .nav_wrapper .navbar {
     background: var(--light-grey1);
